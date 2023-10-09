@@ -13,6 +13,10 @@ width: 100%;
 padding: 30px;
 }
 
+.titulocentralizado {
+   text-align: center;
+}
+
 p {
    text-align: center;
 
@@ -36,10 +40,6 @@ font-style: italic;
 background-color: darksalmon;
 padding: 20px;
 
-}
-
-h2 {
-   text-align: center;
 }
 
 ul {
