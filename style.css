@@ -25,5 +25,10 @@ em strong {
 
 .itens {
 
-fon
+font-style: italic;
+}
+
+.beneficios {
+background-color: darksalmon;
+
 }
