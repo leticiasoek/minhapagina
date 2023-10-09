@@ -9,6 +9,10 @@ width: 100%;
 
 }
 
+.principal {
+
+}
+
 p {
    text-align: center;
 
@@ -31,4 +35,8 @@ font-style: italic;
 .beneficios {
 background-color: darksalmon;
 
+}
+
+h2 {
+   text-align: center;
 }
