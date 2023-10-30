@@ -1,6 +1,19 @@
 header {
     background-color: gainsboro;
+    padding: 20px 0;
 }
+
+.caixa {
+    position: relative;
+    height: 940px;
+    margin: 0% auto;
+}
+
+nav [
+    position: absolute;
+    top: 110;
+    right: 0;
+]
 
 nav li {
  display: inline;
