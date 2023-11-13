@@ -1,3 +1,24 @@
+header {
+    background: #BBBBBB;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a: :hover {
+    color: #C78C19
+    text-decoration: underline;
+}
 
 .produtos {
     width: 940px;
@@ -5,7 +26,7 @@
     padding: 50px 0;
 }
 
-.produtos li {
+.produtos li: :hover {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -17,6 +38,18 @@
     border width: 2px;
     border-style: dashed;
     border-radius: 15px
+}
+
+.produtos li {
+border-color: #C78C19;
+}
+
+.produtos li: :active {
+    border-color: #C87C19
+}
+
+.produtos li: :hover h2 {
+    font-size: 30px;
 }
 
 .produtos h2 {
